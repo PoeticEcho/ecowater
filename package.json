@@ -1,0 +1,17 @@
+{
+  "name": "ecowater-3d",
+  "private": true,
+  "type": "module",
+  "dependencies": {
+    "esbuild": "0.25.10",
+    "tailwindcss": "3.4.17",
+    "three": "0.180.0"
+  },
+  "scripts": {
+    "build": "node build.mjs",
+    "test": "node test.mjs && node test-fish.mjs && node test-progress.mjs"
+  },
+  "devDependencies": {
+    "lucide-static": "^1.61.0"
+  }
+}
